@@ -13,3 +13,8 @@ dependencies = [
     "pyarrow>=20.0.0",
     "requests>=2.32.4",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
